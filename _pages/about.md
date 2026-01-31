@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a postdoctoral researcher at the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences (SIAT, CAS). I am affiliated with the National Key Laboratory of Medical Imaging Science and Technology Systems at SIAT (https://medimaging.siat.ac.cn/). My primary research interests include medical imaging, deep learning, and signal processing. In addition, I have worked on several projects involving hardware–software co-design.
+I am a postdoctoral researcher at the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences (SIAT, CAS). I am affiliated with the National Key Laboratory of Medical Imaging Science and Technology Systems at [SIAT](https://medimaging.siat.ac.cn/). My primary research interests include medical imaging, deep learning, and signal processing. In addition, I have worked on several projects involving hardware–software co-design.
 
-I am very fortunate to be advised by Prof. Dong Liang (https://english.siat.ac.cn/about/il/pre/202505/t20250526_1044430.html) from the Lauterbur Research Center for Biomedical Imaging and the Medical AI Research Center. Previously, I was also advised by Prof. Dong Liang and Prof. Haifeng Wang (https://people.ucas.edu.cn/~hfwang?language=en) during my master’s studies.
+I am very fortunate to be advised by [Prof. Dong Liang](https://english.siat.ac.cn/about/il/pre/202505/t20250526_1044430.html) from the Lauterbur Research Center for Biomedical Imaging and the Medical AI Research Center. Previously, I was also advised by [Prof. Dong Liang] and [Prof. Haifeng Wang](https://people.ucas.edu.cn/~hfwang?language=en) during my master’s studies.
 
 # 🔥 News
 To be updated.
@@ -29,9 +29,9 @@ To be updated.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[High-dimensional Distribution Learning](https://ieeexplore.ieee.org/abstract/document/11152307)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Congcong Liu**, Yuanyuan Liu, Chentao Cao, Jing Cheng, Qingyong Zhu, Tian Zhou, Chen Luo, Yanjie Zhu, Haifeng Wang, Zhuo-Xu Cui, Dong Liang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
