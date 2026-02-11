@@ -35,11 +35,11 @@ To be updated.
 
 **Congcong Liu**, Yuanyuan Liu, Chentao Cao, Jing Cheng, Qingyong Zhu, Tian Zhou, Chen Luo, Yanjie Zhu, Haifeng Wang, Zhuo-Xu Cui, Dong Liang
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- 
 
-# 🎖 Honors and Awards
+# 🥇 Honors and Awards
 - *2024.10* 2024 National Scholarship for Graduate Students. 
 - *2024.05* International Society for Magnetic Resonance in Medicine (ISMRM) Stipend Award. 
 
-# 📖 Educations
+# 📚 Educations
 - *2020.09 - 2025.01 *, University of Chinese Academy of Sciences (UCAS), Pattern Recognition and Intelligent Systems. 
