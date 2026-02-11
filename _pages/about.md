@@ -26,19 +26,14 @@ To be updated.
 
 # 📝 Publications 
 
+- It’s currently being updated; in the meantime, please feel free to check my [Google Scholar](https://scholar.google.com/citations?user=jGnxZdsAAAAJ&hl=zh-CN) profile.
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[High-dimensional Distribution Learning](https://ieeexplore.ieee.org/abstract/document/11152307)
+[J-Score: Joint Distribution Learning With Score-Based Diffusion for Accelerating T1ρ Mapping](https://ieeexplore.ieee.org/abstract/document/11152307)
 
 **Congcong Liu**, Yuanyuan Liu, Chentao Cao, Jing Cheng, Qingyong Zhu, Tian Zhou, Chen Luo, Yanjie Zhu, Haifeng Wang, Zhuo-Xu Cui, Dong Liang
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
 - *2024.10* 2024 National Scholarship for Graduate Students. 
