@@ -19,8 +19,10 @@ redirect_from:
 
 I am a postdoctoral researcher at the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences (SIAT, CAS). I am affiliated with the National Key Laboratory of Medical Imaging Science and Technology Systems at [SIAT](https://medimaging.siat.ac.cn/) ([Director: Hairong Zheng](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595159147.html)). My primary research interests include medical imaging, deep learning, and signal processing. In addition, I have worked on several projects involving hardware–software co-design.
 
-I am very fortunate to be advised by [Prof. Dong Liang (梁栋)](https://english.siat.ac.cn/about/il/pre/202505/t20250526_1044430.html) from the Lauterbur Research Center for Biomedical Imaging and the Medical AI Research Center. Previously, I was also advised by [Prof. Dong Liang](https://english.siat.ac.cn/about/il/pre/202505/t20250526_1044430.html) and [Prof. Haifeng Wang](https://people.ucas.edu.cn/~hfwang?language=en) during my master’s studies.
+I am very fortunate to be advised by [Prof. Dong Liang (梁栋)](https://english.siat.ac.cn/about/il/pre/202505/t20250526_1044430.html) from the Lauterbur Research Center for Biomedical Imaging and the Medical AI Research Center. Previously, I was also advised by [Prof. Dong Liang](https://english.siat.ac.cn/about/il/pre/202505/t20250526_1044430.html) and [Prof. Haifeng Wang](https://people.ucas.edu.cn/~hfwang?language=en) during my master’s studies. 
 
+E-mail: cc.liu at siat.ac.cn / liuc23539 at gmail.com / sober_235 at 163.com
+ 
 # 🔥 News
 To be updated.
 
