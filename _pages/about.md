@@ -39,6 +39,15 @@ To be updated.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Physics-Informed DeepMRI: k-Space Interpolation Meets Heat Diffusion](https://ieeexplore.ieee.org/document/10683732/)
+
+**Zhuo-Xu Cui**\*, **Congcong Liu**\*, Xiaohong Fan, Chentao Cao, Jing Cheng, Qingyong Zhu, Yuanyuan Liu, Sen Jia, Haifeng Wang, Yanjie Zhu, Yihang Zhou, Jianping Zhang, Qiegen Liu, Dong Liang (\*Equal Contribution)
+</div>
+</div>
+
 - Under construction
 
 # 🥇 Honors and Awards
