@@ -35,7 +35,7 @@ To be updated.
 
 [J-Score: Joint Distribution Learning With Score-Based Diffusion for Accelerating T1ρ Mapping](https://ieeexplore.ieee.org/abstract/document/11152307)
 
-**Congcong Liu**, Yuanyuan Liu, Chentao Cao, Jing Cheng, Qingyong Zhu, Tian Zhou, Chen Luo, Yanjie Zhu, Haifeng Wang, Zhuo-Xu Cui†, Dong Liang (†Corresponding Author)
+**Congcong Liu**, Yuanyuan Liu, Chentao Cao, Jing Cheng, Qingyong Zhu, Tian Zhou, Chen Luo, Yanjie Zhu, Haifeng Wang, Zhuo-Xu Cui†, Dong Liang† (†Co-Corresponding Author)
 </div>
 </div>
 
