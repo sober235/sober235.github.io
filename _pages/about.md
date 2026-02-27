@@ -58,5 +58,5 @@ To be updated.
 - *2020.09 - 2025.01 *, University of Chinese Academy of Sciences (UCAS), Pattern Recognition and Intelligent Systems.
 
 <div style="text-align:center; margin-top:2em;">
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=2ILkDrwTQU5fMt_qVuEPtavwc9iON4cUTOiXAr6xTt4&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=2ILkDrwTQU5fMt_qVuEPtavwc9iON4cUTOiXAr6xTt4&cl=ffffff&w=200"></script>
 </div>
