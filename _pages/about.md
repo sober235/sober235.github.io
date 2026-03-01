@@ -54,6 +54,11 @@ To be updated.
 - *2024.10* 2024 National Scholarship for Graduate Students. 
 - *2024.05* International Society for Magnetic Resonance in Medicine (ISMRM) Stipend Award. 
 
+# 🔍 Service
+
+- Journal Reviewer: IEEE Transactions on Medical Imaging (TMI), IEEE Transactions on Computational Imaging (TCI), Artificial Intelligence Review, The International Journal of Cardiovascular Imaging, etc.
+- Conference Reviewer: IEEE International Conference on Bioinformatics and Biomedicine (BIBM), etc.
+
 # 📚 Educations
 - *2020.09 - 2025.01 *, University of Chinese Academy of Sciences (UCAS), Pattern Recognition and Intelligent Systems.
 
