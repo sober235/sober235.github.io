@@ -30,7 +30,7 @@ To be updated.
 
 - It’s currently being updated; Please feel free to see my [Google Scholar](https://scholar.google.com/citations?user=jGnxZdsAAAAJ&hl=zh-CN) profile.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2025</div><img src='images/jscore.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [J-Score: Joint Distribution Learning With Score-Based Diffusion for Accelerating T1ρ Mapping](https://ieeexplore.ieee.org/abstract/document/11152307)
@@ -39,7 +39,7 @@ To be updated.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2024</div><img src='images/deepmri.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Physics-Informed DeepMRI: k-Space Interpolation Meets Heat Diffusion](https://ieeexplore.ieee.org/document/10683732/)
