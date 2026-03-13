@@ -32,7 +32,6 @@ To be updated.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2025</div><img src='images/jscore.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 [J-Score: Joint Distribution Learning With Score-Based Diffusion for Accelerating T1ρ Mapping](https://ieeexplore.ieee.org/abstract/document/11152307)
 
 **Congcong Liu**, Yuanyuan Liu, Chentao Cao, Jing Cheng, Qingyong Zhu, Tian Zhou, Chen Luo, Yanjie Zhu, Haifeng Wang, Zhuo-Xu Cui†, Dong Liang† (†Co-Corresponding Author)
@@ -41,7 +40,6 @@ To be updated.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2024</div><img src='images/deepmri.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 [Physics-Informed DeepMRI: k-Space Interpolation Meets Heat Diffusion](https://ieeexplore.ieee.org/document/10683732/)
 
 **Zhuo-Xu Cui**\*, **Congcong Liu**\*, Xiaohong Fan, Chentao Cao, Jing Cheng, Qingyong Zhu, Yuanyuan Liu, Sen Jia, Haifeng Wang, Yanjie Zhu, Yihang Zhou†, Jianping Zhang, Qiegen Liu, Dong Liang† (\*Equal Contribution, †Co-Corresponding Author)
