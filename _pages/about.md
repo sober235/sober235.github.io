@@ -34,7 +34,7 @@ To be updated.
 <div class='paper-box-text' markdown="1">
 [J-Score: Joint Distribution Learning With Score-Based Diffusion for Accelerating T1ρ Mapping](https://ieeexplore.ieee.org/abstract/document/11152307)
 
-[**Code**](https://github.com/sober235/j-score)
+<a href="https://github.com/sober235/j-score" style="display:inline-block;background-color:#002FA7;color:#ffffff;padding:2px 10px;border-radius:4px;text-decoration:none;font-weight:bold;font-size:0.9em;">Code</a>
 
 **Congcong Liu**, Yuanyuan Liu, Chentao Cao, Jing Cheng, Qingyong Zhu, Tian Zhou, Chen Luo, Yanjie Zhu, Haifeng Wang, Zhuo-Xu Cui†, Dong Liang† (†Co-Corresponding Author)
 </div>
