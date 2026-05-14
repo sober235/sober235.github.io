@@ -52,6 +52,8 @@ Bingbing Chen, **Congcong Liu**, Dong Liang, Zhuo-Xu Cui
 <div class='paper-box-text' markdown="1">
 [Physics-Informed DeepMRI: k-Space Interpolation Meets Heat Diffusion](https://ieeexplore.ieee.org/document/10683732/)
 
+<a href="https://github.com/MAiTL-Group/Heat-Diffusion" style="display:inline-block;background-color:#002FA7;color:#ffffff;padding:2px 10px;border-radius:4px;text-decoration:none;font-weight:bold;font-size:0.9em;">Code</a>
+
 **Zhuo-Xu Cui**\*, **Congcong Liu**\*, Xiaohong Fan, Chentao Cao, Jing Cheng, Qingyong Zhu, Yuanyuan Liu, Sen Jia, Haifeng Wang, Yanjie Zhu, Yihang Zhou†, Jianping Zhang, Qiegen Liu, Dong Liang† (\*Equal Contribution, †Co-Corresponding Author)
 </div>
 </div>
