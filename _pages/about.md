@@ -34,6 +34,8 @@ To be updated.
 <div class='paper-box-text' markdown="1">
 [Hamiltonian Asymmetric Fusion: One-Way Safe Directed Refinement under Modality Imbalance](https://openreview.net/forum?id=Iv8D6q1gQL)
 
+<a href="https://github.com/MAiTL-Group/HAF" style="display:inline-block;background-color:#002FA7;color:#ffffff;padding:2px 10px;border-radius:4px;text-decoration:none;font-weight:bold;font-size:0.9em;">Code</a>
+
 Bingbing Chen\*, **Congcong Liu**\*, Dong Liang†, Zhuo-Xu Cui† (\*Equal Contribution, †Co-Corresponding Author)
 </div>
 </div>
