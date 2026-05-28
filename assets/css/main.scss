@@ -130,8 +130,9 @@ h1:before, .anchor:before {
     .theme-toggle__icon { display: none; }
 }
 
-html[data-theme="dark"] .theme-toggle__icon--light { display: inline-block; }
-html[data-theme="light"] .theme-toggle__icon--dark  { display: inline-block; }
+/* Icon reflects CURRENT mode: dark = moon, light = sun. */
+html[data-theme="dark"]  .theme-toggle__icon--dark  { display: inline-block; }
+html[data-theme="light"] .theme-toggle__icon--light { display: inline-block; }
 
-/* When no data-theme yet (script-disabled), show sun by default */
-html:not([data-theme]) .theme-toggle__icon--light { display: inline-block; }
+/* No data-theme yet (script-disabled): default is dark, show moon. */
+html:not([data-theme]) .theme-toggle__icon--dark { display: inline-block; }
