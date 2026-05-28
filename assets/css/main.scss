@@ -40,6 +40,9 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+// Default dark mode override (last so it wins)
+@import "dark-mode";
+
 .paper-box {
     display: flex;
     justify-content: left;

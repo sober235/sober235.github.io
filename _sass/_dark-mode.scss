@@ -1,0 +1,267 @@
+/* ============================================================
+   Default Dark Mode
+   Applied unconditionally as site-wide override.
+   ============================================================ */
+
+$dm-bg:           #1a1a1a;
+$dm-bg-elev:      #0f0f0f;
+$dm-bg-code:      #2a2a2a;
+$dm-text:         #e6e6e6;
+$dm-text-mute:    #a0a0a0;
+$dm-border:       #333;
+$dm-border-soft:  #262626;
+$dm-link:         #79c0ff;
+$dm-link-hover:   #a5d6ff;
+$dm-accent:       #58a6ff;
+
+html,
+body {
+  background-color: $dm-bg !important;
+  color: $dm-text !important;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.page__lead,
+.archive__item-title {
+  color: #f5f5f5 !important;
+}
+
+p, li, span, label, dt, dd, figcaption {
+  color: $dm-text !important;
+}
+
+small, .page__meta, .page__date, .archive__item-excerpt time {
+  color: $dm-text-mute !important;
+}
+
+/* Links */
+a {
+  color: $dm-link !important;
+
+  &:visited { color: $dm-link !important; }
+  &:hover,
+  &:focus   { color: $dm-link-hover !important; }
+}
+
+/* Header / masthead / navigation */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links,
+.greedy-nav__toggle {
+  background-color: $dm-bg-elev !important;
+  color: $dm-text !important;
+  border-color: $dm-border !important;
+}
+
+.masthead {
+  border-bottom: 1px solid $dm-border !important;
+}
+
+.greedy-nav a,
+.greedy-nav .site-title {
+  color: $dm-text !important;
+}
+
+.greedy-nav a:hover {
+  color: $dm-link-hover !important;
+}
+
+.greedy-nav .visible-links a:before {
+  background: $dm-accent !important;
+}
+
+.greedy-nav button {
+  background-color: $dm-bg-elev !important;
+  color: $dm-text !important;
+}
+
+/* Sidebar / author */
+.sidebar,
+.author__avatar,
+.author__content,
+.author__urls-wrapper,
+.author__urls,
+.author__urls li,
+.author__urls a {
+  background-color: transparent !important;
+  color: $dm-text !important;
+}
+
+.author__name { color: #f5f5f5 !important; }
+.author__bio,
+.author__pronouns { color: $dm-text-mute !important; }
+
+.author__urls a {
+  color: $dm-text !important;
+  &:hover { color: $dm-link-hover !important; }
+}
+
+.author__urls .icon { color: $dm-accent !important; }
+
+.sidebar .author__urls li:before,
+.sidebar hr {
+  border-color: $dm-border !important;
+}
+
+/* Page content */
+.page__content,
+.page,
+.archive,
+.layout--single,
+.layout--default,
+.initial-content,
+.archive__item {
+  background-color: transparent !important;
+  color: $dm-text !important;
+}
+
+/* Footer */
+.page__footer,
+.page__footer-follow,
+.page__footer-copyright {
+  background-color: $dm-bg-elev !important;
+  color: $dm-text-mute !important;
+  border-top: 1px solid $dm-border !important;
+}
+
+.page__footer a,
+.page__footer-follow a {
+  color: $dm-link !important;
+  &:hover { color: $dm-link-hover !important; }
+}
+
+/* Code blocks */
+code,
+pre,
+kbd,
+samp,
+tt,
+var,
+.highlight,
+.highlight pre,
+div.highlighter-rouge,
+figure.highlight {
+  background-color: $dm-bg-code !important;
+  color: #f0f0f0 !important;
+  border-color: $dm-border !important;
+}
+
+pre code { background-color: transparent !important; }
+
+/* Tables */
+table,
+th, td,
+tr {
+  background-color: transparent !important;
+  color: $dm-text !important;
+  border-color: $dm-border !important;
+}
+
+table thead { background-color: $dm-bg-elev !important; }
+table tr:nth-child(even) { background-color: rgba(255, 255, 255, 0.03) !important; }
+
+/* Blockquote, hr, borders */
+blockquote {
+  background-color: $dm-bg-elev !important;
+  border-left-color: $dm-accent !important;
+  color: $dm-text !important;
+}
+
+hr,
+.page__hero-caption,
+.archive__subtitle,
+.archive__item {
+  border-color: $dm-border-soft !important;
+}
+
+/* Forms / inputs / buttons */
+input, select, textarea {
+  background-color: $dm-bg-elev !important;
+  color: $dm-text !important;
+  border-color: $dm-border !important;
+}
+
+button, .btn {
+  background-color: $dm-bg-elev !important;
+  color: $dm-text !important;
+  border-color: $dm-border !important;
+
+  &:hover {
+    background-color: lighten($dm-bg-elev, 8%) !important;
+    color: $dm-link-hover !important;
+  }
+}
+
+.btn--primary,
+.btn--info,
+.btn--success {
+  background-color: $dm-accent !important;
+  color: $dm-bg !important;
+}
+
+/* Notices */
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  background-color: $dm-bg-elev !important;
+  color: $dm-text !important;
+  border-color: $dm-border !important;
+}
+
+/* Selection */
+::selection {
+  background: $dm-accent !important;
+  color: $dm-bg !important;
+}
+
+/* Custom paper-box (publications) */
+.paper-box {
+  border-bottom-color: $dm-border !important;
+
+  .paper-box-image img {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6) !important;
+  }
+}
+
+/* Badge */
+.badge {
+  background-color: #1f6feb !important;
+  color: #fff !important;
+}
+
+/* Images: subtle outline so they don't float on dark bg.
+   Keep transparent PNGs visible; do NOT invert. */
+.page__content img,
+.archive__item img,
+.paper-box img {
+  background-color: transparent !important;
+}
+
+/* Search / breadcrumbs / pagination if present */
+.pagination a,
+.pagination__current,
+.breadcrumbs a,
+.breadcrumbs span {
+  color: $dm-text !important;
+}
+
+.pagination a:hover { color: $dm-link-hover !important; }
+
+/* Scrollbar (WebKit) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track { background: $dm-bg-elev; }
+::-webkit-scrollbar-thumb {
+  background: lighten($dm-bg-elev, 12%);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover { background: lighten($dm-bg-elev, 20%); }
