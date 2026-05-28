@@ -12,6 +12,20 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" id="dark-mode-css" href="assets/css/dark.css">
+
+<script>
+  // Apply persisted theme before paint to avoid FOUC. Default = dark.
+  (function () {
+    try {
+      var stored = localStorage.getItem('site-theme');
+      var theme = stored === 'light' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+      var link = document.getElementById('dark-mode-css');
+      if (link) link.disabled = (theme === 'light');
+    } catch (e) { /* localStorage unavailable */ }
+  })();
+</script>
 
 <meta http-equiv="cleartype" content="on">
 <head>
