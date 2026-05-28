@@ -107,32 +107,3 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
-
-/* Theme toggle button (sun/moon) */
-.theme-toggle {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    padding: 0.4em 0.6em;
-    font-size: 1em;
-    line-height: 1;
-    color: inherit;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    &:hover,
-    &:focus {
-        color: #00369f;
-        outline: none;
-    }
-
-    .theme-toggle__icon { display: none; }
-}
-
-/* Icon reflects CURRENT mode: dark = moon, light = sun. */
-html[data-theme="dark"]  .theme-toggle__icon--dark  { display: inline-block; }
-html[data-theme="light"] .theme-toggle__icon--light { display: inline-block; }
-
-/* No data-theme yet (script-disabled): default is dark, show moon. */
-html:not([data-theme]) .theme-toggle__icon--dark { display: inline-block; }
