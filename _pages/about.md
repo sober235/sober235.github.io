@@ -71,7 +71,7 @@ Bingbing Chen\*, **Congcong Liu**\*, Dong Liang†, Zhuo-Xu Cui† (\*Equal Cont
 # 🔍 Service
 
 - Journal Reviewer: IEEE Transactions on Medical Imaging (TMI), IEEE Transactions on Computational Imaging (TCI), Artificial Intelligence Review, The International Journal of Cardiovascular Imaging, etc.
-- Conference Reviewer: International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), IEEE International Conference on Bioinformatics and Biomedicine (BIBM), etc.
+- Conference Reviewer: Conference on Neural Information Processing Systems (NeurIPS), International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), IEEE International Conference on Bioinformatics and Biomedicine (BIBM), etc.
 
 # 📚 Educations
 - *2020.09 - 2025.01 *, University of Chinese Academy of Sciences (UCAS), Pattern Recognition and Intelligent Systems.
