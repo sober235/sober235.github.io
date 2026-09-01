@@ -136,10 +136,12 @@ Bingbing Chen\*, **Congcong Liu**\*, Dong Liang†, Zhuo-Xu Cui† (\*Equal Cont
 # 🥇 <span class="lang-en">Honors and Awards</span><span class="lang-cn">荣誉与奖励</span>
 
 <div class="lang-en" markdown="1">
+- *2026.08* Outstanding Youth Paper Award, Youth Forum of the UMI 2026 Annual Academic Conference, for *J-Score: Joint Distribution Learning With Score-Based Diffusion for Accelerating T1ρ Mapping*.
 - *2024.10* 2024 National Scholarship for Graduate Students. 
 - *2024.05* International Society for Magnetic Resonance in Medicine (ISMRM) Stipend Award. 
 </div>
 <div class="lang-cn" markdown="1">
+- *2026.08* 数学图像联盟（UMI）2026 年度学术会议“青年论坛”青年优秀论文，获奖论文《J-Score: Joint Distribution Learning With Score-Based Diffusion for Accelerating T1ρ Mapping》。
 - *2024.10* 2024 年研究生国家奖学金。
 - *2024.05* 国际医学磁共振学会（ISMRM）Stipend Award。
 </div>
