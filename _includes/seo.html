@@ -8,7 +8,7 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+<title>{{ site.title }} | 中国科学院深圳先进技术研究院（深圳先进院）</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -29,7 +29,12 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
+{% if seo_description %}
+  <meta name="description" content="{{ seo_description }}">
+{% endif %}
+
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ site.title }}">
 
@@ -38,7 +43,7 @@
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if page.excerpt %}
+{% if seo_description %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
@@ -72,4 +77,52 @@
 {% if site.baidu_site_verification %}
   <meta name="baidu-site-verification" content="{{ site.baidu_site_verification }}" />
 {% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Congcong Liu",
+  "alternateName": ["刘聪聪", "Liu Congcong"],
+  "givenName": "Congcong",
+  "familyName": "Liu",
+  "url": "{{ site.url }}/",
+  "image": "{{ site.url }}/images/android-chrome-512x512.png",
+  "jobTitle": "Postdoctoral Researcher",
+  "description": "刘聪聪，中国科学院深圳先进技术研究院（深圳先进院）博士后，研究方向为磁共振成像、医学影像与深度学习。",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences",
+    "alternateName": ["中国科学院深圳先进技术研究院", "深圳先进院", "SIAT"],
+    "url": "http://www.siat.ac.cn/"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "医学成像科学与技术系统全国重点实验室",
+    "alternateName": "National Key Laboratory of Medical Imaging Science and Technology Systems",
+    "url": "https://medimaging.siat.ac.cn/"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Chinese Academy of Sciences",
+    "alternateName": "中国科学院大学"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Shenzhen 深圳",
+    "addressRegion": "Guangdong 广东",
+    "addressCountry": "CN"
+  },
+  "knowsAbout": [
+    "磁共振成像", "医学影像", "深度学习", "图像重建",
+    "Magnetic Resonance Imaging", "Medical Imaging", "Deep Learning", "Image Reconstruction"
+  ],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=jGnxZdsAAAAJ&hl=zh-CN",
+    "https://www.researchgate.net/profile/Congcong-Liu-3",
+    "https://github.com/sober235",
+    "https://x.com/CongcongLiu6"
+  ]
+}
+</script>
 <!-- end SEO -->
