@@ -64,7 +64,7 @@ I obtained my Ph.D. on January 5, 2025, at the Paul C. Lauterbur Research Center
 我于 2025 年 1 月 5 日在保罗·劳特伯生物医学成像研究中心与医学人工智能研究中心取得博士学位，师从[梁栋教授](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html)，并与[崔卓须教授](https://zhuoxucui.github.io/)开展了密切合作。在硕士阶段，我亦师从[梁栋教授](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html)与[王海峰教授](https://people.ucas.edu.cn/~hfwang?language=en)。
 </div>
 
-E-mail: cc.liu at siat.ac.cn / liuc23539 at gmail.com / sober_235 at 163.com
+E-mail: cc.liu at siat.ac.cn / congcongliu.ai at gmail.com / sober_235 at 163.com
  
 <span class='anchor' id='-news'></span>
 
