@@ -23,6 +23,7 @@
         button.setAttribute('aria-pressed', String(code === language));
       }
     });
+    document.dispatchEvent(new CustomEvent('site:language-change'));
   }
 
   window.setLang = function (value) {
