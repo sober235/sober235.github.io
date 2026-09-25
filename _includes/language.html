@@ -1,0 +1,13 @@
+<style>
+/* Apply language visibility before the profile and page content are painted. */
+html:not(.show-cn) .lang-cn,
+html.show-cn .lang-en { display: none !important; }
+.lang-switch { text-align: right; margin: 0 0 1.2em 0; }
+.lang-switch button {
+  border: 1px solid #002FA7; background: #fff; color: #002FA7;
+  padding: 2px 12px; border-radius: 4px; cursor: pointer;
+  font-size: 0.85em; font-weight: bold; margin-left: 4px;
+}
+.lang-switch button.active { background: #002FA7; color: #fff; }
+</style>
+<script src="{{ '/assets/js/language.js' | relative_url }}"></script>

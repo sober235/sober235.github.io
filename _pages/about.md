@@ -15,53 +15,23 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<style>
-/* Bilingual (EN / 中文) toggle */
-.lang-cn { display: none; }
-body.show-cn .lang-en { display: none; }
-body.show-cn span.lang-cn { display: inline; }
-body.show-cn div.lang-cn  { display: block; }
-.lang-switch { text-align: right; margin: 0 0 1.2em 0; }
-.lang-switch button {
-  border: 1px solid #002FA7; background: #fff; color: #002FA7;
-  padding: 2px 12px; border-radius: 4px; cursor: pointer;
-  font-size: 0.85em; font-weight: bold; margin-left: 4px;
-}
-.lang-switch button.active { background: #002FA7; color: #fff; }
-</style>
-
-<div class="lang-switch">
-  <button id="btn-en" onclick="setLang('en')">EN</button>
-  <button id="btn-cn" onclick="setLang('cn')">中文</button>
+<div class="lang-switch" role="group" aria-label="Language">
+  <button type="button" id="btn-en" class="active" aria-pressed="true" onclick="setLang('en')">English</button>
+  <button type="button" id="btn-cn" aria-pressed="false" onclick="setLang('cn')"><span class="lang-en">Chinese</span><span class="lang-cn">中文</span></button>
 </div>
-
-<script>
-function setLang(l){
-  var cn = (l === 'cn');
-  document.body.classList.toggle('show-cn', cn);
-  var e = document.getElementById('btn-en'), c = document.getElementById('btn-cn');
-  if (e && c) { e.classList.toggle('active', !cn); c.classList.toggle('active', cn); }
-  try { localStorage.setItem('siteLang', l); } catch (err) {}
-}
-(function(){
-  var l = 'en';
-  try { l = localStorage.getItem('siteLang') || 'en'; } catch (err) {}
-  setLang(l);
-})();
-</script>
 
 <span class='anchor' id='about-me'></span>
 
 <div class="lang-en" markdown="1">
 My research focuses on intelligent magnetic resonance imaging and medical artificial intelligence. I aim to develop adaptive and trustworthy imaging systems that can learn from diverse disease presentations, patient variability, and changing imaging conditions. By moving beyond conventional fixed imaging protocols, my research explores new paradigms for dynamically optimizing image acquisition, reconstruction, and diagnosis based on disease-specific information. Through the integration of imaging physics, artificial intelligence, and clinical knowledge, I seek to develop robust MRI technologies that enable more precise disease characterization and earlier intervention.
 
-I am a postdoctoral researcher at the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences (SIAT, CAS), co-supervised by [Prof. Dong Liang (梁栋)](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html). I am affiliated with the National Key Laboratory of Medical Imaging Science and Technology Systems at [SIAT](https://medimaging.siat.ac.cn/) ([Director: Hairong Zheng](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595159147.html)). I obtained my Ph.D. on January 5, 2025, at the Paul C. Lauterbur Research Center for Biomedical Imaging and the Medical AI Research Center, where I was advised by [Prof. Dong Liang](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html) and worked closely with [Prof. Zhuo-Xu Cui](https://zhuoxucui.github.io/). During my master’s studies, I was advised by [Prof. Dong Liang](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html) and [Prof. Haifeng Wang](https://people.ucas.edu.cn/~hfwang?language=en).
+I am a postdoctoral researcher at the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences (SIAT, CAS), co-supervised by [Prof. Dong Liang](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html). I am affiliated with the State Key Laboratory of Biomedical Imaging Science and System at [SIAT](https://medimaging.siat.ac.cn/) ([Director: Hairong Zheng](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595159147.html)). I obtained my Ph.D. on January 5, 2025, at the Paul C. Lauterbur Research Center for Biomedical Imaging and the Medical AI Research Center, where I was advised by [Prof. Dong Liang](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html) and worked closely with [Prof. Zhuo-Xu Cui](https://zhuoxucui.github.io/). During my master’s studies, I was advised by [Prof. Dong Liang](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html) and [Prof. Haifeng Wang](https://people.ucas.edu.cn/~hfwang?language=en).
 </div>
 
 <div class="lang-cn" markdown="1">
 我的研究聚焦于智能磁共振成像与医学人工智能。我致力于开发能够从多样化疾病表现、患者个体差异以及不断变化的成像条件中学习的自适应、可信赖成像系统。突破传统固定成像协议的局限，我的研究探索依据疾病特异性信息动态优化图像采集、重建与诊断的新范式。通过融合成像物理、人工智能与临床知识，我希望发展更加稳健的磁共振成像技术，实现更精准的疾病表征与更早期的临床干预。
 
-我目前是中国科学院深圳先进技术研究院（SIAT, CAS）的博士后研究员，合作导师为[梁栋教授](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html)。我所在的科研平台为深圳先进院[医学影像科学与技术系统全国重点实验室](https://medimaging.siat.ac.cn/)（主任：[郑海荣](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595159147.html)）。我于 2025 年 1 月 5 日在保罗·劳特伯生物医学成像研究中心与医学人工智能研究中心取得博士学位，师从[梁栋教授](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html)，并与[崔卓须教授](https://zhuoxucui.github.io/)开展了密切合作。在硕士阶段，我亦师从[梁栋教授](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html)与[王海峰教授](https://people.ucas.edu.cn/~hfwang?language=en)。
+我目前是中国科学院深圳先进技术研究院（SIAT, CAS）的博士后研究员，合作导师为[梁栋教授](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html)。我所在的科研平台为深圳先进院[医学成像科学与技术系统全国重点实验室](https://medimaging.siat.ac.cn/)（主任：[郑海荣](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595159147.html)）。我于 2025 年 1 月 5 日在保罗·劳特伯生物医学成像研究中心与医学人工智能研究中心取得博士学位，师从[梁栋教授](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html)，并与[崔卓须教授](https://zhuoxucui.github.io/)开展了密切合作。在硕士阶段，我亦师从[梁栋教授](https://medimaging.siat.ac.cn/cxqjzx/2025-03/06/article_2025030604595111336.html)与[王海峰教授](https://people.ucas.edu.cn/~hfwang?language=en)。
 </div>
 
 E-mail: cc.liu at siat.ac.cn / congcongliu.ai at gmail.com / sober_235 at 163.com
@@ -77,7 +47,7 @@ E-mail: cc.liu at siat.ac.cn / congcongliu.ai at gmail.com / sober_235 at 163.co
 # 📝 <span class="lang-en">Publications</span><span class="lang-cn">论文发表</span>
 
 <div class="lang-en" markdown="1">
-- It’s currently being updated; Please feel free to see my [Google Scholar](https://scholar.google.com/citations?user=jGnxZdsAAAAJ&hl=zh-CN) profile.
+- It’s currently being updated; Please feel free to see my [Google Scholar](https://scholar.google.com/citations?user=jGnxZdsAAAAJ&hl=en) profile.
 </div>
 <div class="lang-cn" markdown="1">
 - 正在更新中，欢迎查看我的 [Google Scholar](https://scholar.google.com/citations?user=jGnxZdsAAAAJ&hl=zh-CN) 主页。

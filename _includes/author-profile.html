@@ -5,20 +5,17 @@
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}" data-alt-en="{{ author.name | escape }}" data-alt-cn="{{ author.name_cn | default: author.name | escape }}">
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name"><span class="lang-en">{{ author.name }}</span><span class="lang-cn">{{ author.name_cn | default: author.name }}</span></h3>
+    {% if author.bio %}<p class="author__bio"><span class="lang-en">{{ author.bio }}</span><span class="lang-cn">{{ author.bio_cn | default: author.bio }}</span></p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
-      {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
