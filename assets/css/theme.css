@@ -70,6 +70,29 @@ html:not([data-theme-setting]) .theme-icon-system,
 .greedy-nav .hidden-links:before, .author__urls:before { border-bottom-color: var(--theme-border); }
 .greedy-nav .hidden-links:after, .author__urls:after { border-bottom-color: var(--theme-bg); }
 .social-icons .fa { color: var(--theme-text); }
+.author__bio .author__affiliation-logo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 0.35em 0.15em 0;
+  vertical-align: middle;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.author__affiliation-wordmark {
+  display: inline-block;
+  padding: 0.15em 0.35em;
+  margin-right: 0.35em;
+  vertical-align: baseline;
+  border-radius: 3px;
+  background-color: #004386;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
 .lang-switch button { border-color: var(--theme-accent); background: var(--theme-bg); color: var(--theme-accent); }
 .lang-switch button.active { background: var(--theme-accent); color: var(--theme-on-accent); }
 

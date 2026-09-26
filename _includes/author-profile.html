@@ -10,7 +10,14 @@
 
   <div class="author__content">
     <h3 class="author__name"><span class="lang-en">{{ author.name }}</span><span class="lang-cn">{{ author.name_cn | default: author.name }}</span></h3>
-    {% if author.bio %}<p class="author__bio"><span class="lang-en">{{ author.bio }}</span><span class="lang-cn">{{ author.bio_cn | default: author.bio }}</span></p>{% endif %}
+    {% if author.bio %}
+      <p class="author__bio">
+        <!-- Official SIAT emblem: https://english.siat.ac.cn/images/siaten2025-logoicon.png -->
+        <span class="author__affiliation-wordmark lang-en" aria-label="SIAT">SIAT</span>
+        <img class="author__affiliation-logo lang-cn" src="{{ '/images/siat-logo.png' | relative_url }}" width="30" height="30" alt="深圳先进院标志">
+        <span class="lang-en">{{ author.bio }}</span><span class="lang-cn">{{ author.bio_cn | default: author.bio }}</span>
+      </p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
