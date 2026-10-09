@@ -57,7 +57,7 @@ E-mail: cc.liu at siat.ac.cn / congcongliu.ai at gmail.com / sober_235 at 163.co
 <div class='paper-box-text' markdown="1">
 [Prior as Geometry, Not Generator: Weak-Diffusion Test-Time Reconstruction for Dynamic MRI](https://openreview.net/forum?id=UbC0NrVCfU)
 
-Mengzhe Du, **Congcong Liu**, Baoqing Li, Jinglong Tao, Wenwu He, Zhuo-Xu Cui
+Mengzhe Du\*, **Congcong Liu**\*, Baoqing Li, Jinglong Tao, Wenwu He†, Zhuo-Xu Cui† (\*Equal Contribution, †Co-Corresponding Author)
 </div>
 </div>
 
