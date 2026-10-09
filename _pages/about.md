@@ -53,6 +53,14 @@ E-mail: cc.liu at siat.ac.cn / congcongliu.ai at gmail.com / sober_235 at 163.co
 - 正在更新中，欢迎查看我的 [Google Scholar](https://scholar.google.com/citations?user=jGnxZdsAAAAJ&hl=zh-CN) 主页。
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/geometry-gated-td-dip.png' alt="Geometry-Gated TD-DIP: diffusion geometry and scan-specific temporal dynamics" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Prior as Geometry, Not Generator: Weak-Diffusion Test-Time Reconstruction for Dynamic MRI](https://openreview.net/forum?id=UbC0NrVCfU)
+
+Mengzhe Du, **Congcong Liu**, Baoqing Li, Jinglong Tao, Wenwu He, Zhuo-Xu Cui
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/haf.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Hamiltonian Asymmetric Fusion: One-Way Safe Directed Refinement under Modality Imbalance](https://openreview.net/forum?id=Iv8D6q1gQL)
