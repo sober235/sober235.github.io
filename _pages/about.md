@@ -103,10 +103,10 @@ Bingbing Chen\*, **Congcong Liu**\*, Dong Liang†, Zhuo-Xu Cui† (\*Equal Cont
 # 💰 <span class="lang-en">Research Grants</span><span class="lang-cn">在研项目</span>
 
 <div class="lang-en" markdown="1">
-- *2027.01 - 2029.12*, National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C), Principal Investigator.
+- National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C), Principal Investigator.
 </div>
 <div class="lang-cn" markdown="1">
-- *2027.01 - 2029.12*，国家自然科学基金青年科学基金项目（C 类），主持。
+- 国家自然科学基金青年科学基金项目（C 类），主持。
 </div>
 
 <span class='anchor' id='-honors-and-awards'></span>
