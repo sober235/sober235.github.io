@@ -130,11 +130,11 @@ Bingbing Chen\*, **Congcong Liu**\*, Dong Liang†, Zhuo-Xu Cui† (\*Equal Cont
 
 <div class="lang-en" markdown="1">
 - Journal Reviewer: IEEE Transactions on Medical Imaging (TMI), IEEE Transactions on Computational Imaging (TCI), Artificial Intelligence Review, The International Journal of Cardiovascular Imaging, etc.
-- Conference Reviewer: NeurIPS, ICLR, CVPR, MICCAI, BIBM, etc.
+- Conference Reviewer: NeurIPS, ICLR, CVPR, MICCAI, BIBM, IEEE ICASSP, etc.
 </div>
 <div class="lang-cn" markdown="1">
 - 期刊审稿人：IEEE Transactions on Medical Imaging (TMI)、IEEE Transactions on Computational Imaging (TCI)、Artificial Intelligence Review、The International Journal of Cardiovascular Imaging 等。
-- 会议审稿人：NeurIPS、ICLR、CVPR、MICCAI、BIBM 等。
+- 会议审稿人：NeurIPS、ICLR、CVPR、MICCAI、BIBM、IEEE ICASSP 等。
 </div>
 
 <span class='anchor' id='-educations'></span>
